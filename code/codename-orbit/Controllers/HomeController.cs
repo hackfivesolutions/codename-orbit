@@ -33,5 +33,15 @@ namespace codename_orbit.Controllers
 
             return View();
         }
+
+        public ActionResult Analytics()
+        {
+            return View();
+        }
+
+        public ActionResult Simulation()
+        {
+            return View();
+        }
     }
 }
