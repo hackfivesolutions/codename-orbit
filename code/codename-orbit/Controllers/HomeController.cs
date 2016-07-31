@@ -26,5 +26,12 @@ namespace codename_orbit.Controllers
 
             return View();
         }
+
+        public ActionResult Overview()
+        {
+            ViewBag.Message = "Foo";
+
+            return View();
+        }
     }
 }
