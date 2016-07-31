@@ -4,5 +4,63 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Simulation</h2>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Analytical Data - Reducing Crime</h2>
+        <div>Location: Local Council / Adelaide</div>
+        <div>Before: <input type="date" /></div>
+    </div>
+    <div class="col-md-4 text-right sim-controls">
+        <div>
+            <span>Federal objective:</span>
+            <select>
+                <option>Agriculturer</option>
+            </select>
+        </div>
+        <div>
+            <span>State objective:</span>
+            <select>
+                <option>Utilising natural resource</option>
+            </select>
+        </div>
+        <div>
+            <span>Council objective:</span>
+            <select>
+                <option>Advocating primary</option>
+            </select>
+        </div>
+    </div>
+    <div class="teaser-box pull-right">
+        <h3>Simulation parameters</h3>
 
+        <input type="submit" value="Run simulation" class="btn btn-default" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+
+        <span>Simulation based on the following parameters:</span>
+        <ul>
+            <li>Increase A by B%</li>
+            <li>Median average income increase by C%</li>
+        </ul>
+        <input type="submit" value="Create new campaign using simulation results" class="btn btn-default" />
+    </div>
+</div>
+<div class="row">
+    <h3>Comparison</h3>
+    <hr />
+    <div class="col-md-4">
+        <h4>Historical Data</h4>
+        <hr />
+    </div>
+    <div class="col-md-4">
+        <h4>Forecast</h4>
+        <hr />
+        <span>
+            Show projection for <select>
+                <option>Advocating primary</option>
+            </select>
+        </span>
+    </div>
+</div>

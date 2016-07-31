@@ -22,3 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.sim-controls select {
+    width: 50%;
+}
